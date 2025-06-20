@@ -1,0 +1,14 @@
+Element,Specification,Usage
+Main Background Color,#0066CC (Jeopardy Blue),All slide backgrounds
+Category Header Color,#000080 (Navy Blue),Category name rectangles
+Point Value Button Color,#FFD700 (Golden Yellow),Dollar amount buttons
+Text Color (Headers),#FFFFFF (White),Category and point value text
+Text Color (Questions),#000000 (Black),Question and answer text
+Font Family,Arial or Times New Roman,Consistent throughout presentation
+Title Font Size,48pt Bold,Main title slide only
+Category Font Size,24pt Bold,Category headers on main board
+Point Value Font Size,20pt Bold,Point values on main board
+Question Font Size,32pt Regular,Clue text on question slides
+Answer Font Size,28pt Bold,Response text on answer slides
+Button Border,2pt solid white,All clickable buttons
+Shadow Effect,"Drop shadow: 3px distance, 45° angle",All buttons and rectangles

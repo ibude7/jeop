@@ -1,0 +1,149 @@
+{
+  "categories": [
+    "GEOGRAPHY",
+    "MOVIES & TV",
+    "SCIENCE",
+    "HISTORY",
+    "SPORTS",
+    "FOOD & DRINK"
+  ],
+  "questions": {
+    "GEOGRAPHY": {
+      "100": {
+        "clue": "This country is both an island and a continent.",
+        "answer": "What is Australia?"
+      },
+      "200": {
+        "clue": "The capital of this European country is known as the 'City of Light.'",
+        "answer": "What is France?"
+      },
+      "300": {
+        "clue": "This river is the longest in South America.",
+        "answer": "What is the Amazon?"
+      },
+      "400": {
+        "clue": "Mount Everest sits on the border between Nepal and this country.",
+        "answer": "What is China (Tibet)?"
+      },
+      "500": {
+        "clue": "This U.S. state has the most active volcanoes.",
+        "answer": "What is Alaska?"
+      }
+    },
+    "MOVIES & TV": {
+      "100": {
+        "clue": "This movie features a young lion named Simba.",
+        "answer": "What is The Lion King?"
+      },
+      "200": {
+        "clue": "This TV show features six friends living in New York City.",
+        "answer": "What is Friends?"
+      },
+      "300": {
+        "clue": "This director is known for movies like 'Jaws' and 'E.T.'",
+        "answer": "Who is Steven Spielberg?"
+      },
+      "400": {
+        "clue": "This 1994 movie stars Tom Hanks as a man with a low IQ.",
+        "answer": "What is Forrest Gump?"
+      },
+      "500": {
+        "clue": "This HBO series features dragons and the Iron Throne.",
+        "answer": "What is Game of Thrones?"
+      }
+    },
+    "SCIENCE": {
+      "100": {
+        "clue": "This planet is closest to the Sun.",
+        "answer": "What is Mercury?"
+      },
+      "200": {
+        "clue": "H2O is the chemical formula for this substance.",
+        "answer": "What is water?"
+      },
+      "300": {
+        "clue": "This scientist developed the theory of relativity.",
+        "answer": "Who is Albert Einstein?"
+      },
+      "400": {
+        "clue": "This organ in the human body produces insulin.",
+        "answer": "What is the pancreas?"
+      },
+      "500": {
+        "clue": "This is the speed of light in a vacuum, approximately.",
+        "answer": "What is 300,000 kilometers per second (or 186,000 miles per second)?"
+      }
+    },
+    "HISTORY": {
+      "100": {
+        "clue": "This wall in Germany came down in 1989.",
+        "answer": "What is the Berlin Wall?"
+      },
+      "200": {
+        "clue": "This ship sank on its maiden voyage in 1912.",
+        "answer": "What is the Titanic?"
+      },
+      "300": {
+        "clue": "This Egyptian queen was known for her relationships with Julius Caesar and Mark Antony.",
+        "answer": "Who is Cleopatra?"
+      },
+      "400": {
+        "clue": "This purchase doubled the size of the United States in 1803.",
+        "answer": "What is the Louisiana Purchase?"
+      },
+      "500": {
+        "clue": "This ancient wonder of the world was located in Alexandria, Egypt.",
+        "answer": "What is the Lighthouse of Alexandria (Pharos)?"
+      }
+    },
+    "SPORTS": {
+      "100": {
+        "clue": "This sport is known as 'America's pastime.'",
+        "answer": "What is baseball?"
+      },
+      "200": {
+        "clue": "The Super Bowl is the championship game for this sport.",
+        "answer": "What is football (American football)?"
+      },
+      "300": {
+        "clue": "This tennis tournament is held annually in England.",
+        "answer": "What is Wimbledon?"
+      },
+      "400": {
+        "clue": "This basketball player is known as 'His Airness.'",
+        "answer": "Who is Michael Jordan?"
+      },
+      "500": {
+        "clue": "This country has won the most FIFA World Cup titles.",
+        "answer": "What is Brazil?"
+      }
+    },
+    "FOOD & DRINK": {
+      "100": {
+        "clue": "This Italian dish consists of noodles with sauce.",
+        "answer": "What is pasta?"
+      },
+      "200": {
+        "clue": "This beverage is made from fermented grapes.",
+        "answer": "What is wine?"
+      },
+      "300": {
+        "clue": "This spice comes from the Crocus flower and is very expensive.",
+        "answer": "What is saffron?"
+      },
+      "400": {
+        "clue": "This Japanese dish features raw fish over seasoned rice.",
+        "answer": "What is sushi?"
+      },
+      "500": {
+        "clue": "This French cooking technique involves cooking food sealed in airtight plastic bags in a water bath.",
+        "answer": "What is sous vide?"
+      }
+    }
+  },
+  "final_jeopardy": {
+    "category": "WORLD LANDMARKS",
+    "clue": "This ancient structure in Peru was built by the Incas and is considered one of the New Seven Wonders of the World.",
+    "answer": "What is Machu Picchu?"
+  }
+}

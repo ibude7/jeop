@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paramount+ Jeopardy Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start Screen -->
+    <div id="start-screen" class="screen active">
+        <div class="start-container">
+            <div class="jeopardy-logo">
+                <h1>PARAMOUNT+ JEOPARDY</h1>
+                <div class="logo-subtitle">Test Your Streaming Knowledge</div>
+            </div>
+            <button id="start-btn" class="btn btn--primary btn--lg jeopardy-btn">START GAME</button>
+        </div>
+    </div>
+
+    <!-- Main Game Board -->
+    <div id="game-board" class="screen">
+        <div class="game-header">
+            <h2>PARAMOUNT+ JEOPARDY!</h2>
+            <div class="score-display">
+                <span>Score: $<span id="current-score">0</span></span>
+            </div>
+        </div>
+        
+        <div class="board-container">
+            <div class="board-grid">
+                <!-- Categories Row -->
+                <div class="category-header">STAR TREK UNIVERSE</div>
+                <div class="category-header">YELLOWSTONE UNIVERSE</div>
+                <div class="category-header">REALITY TV</div>
+                <div class="category-header">CRIME & DRAMA</div>
+                <div class="category-header">KIDS & FAMILY</div>
+                <div class="category-header">MOVIES & MORE</div>
+                
+                <!-- Point Value Rows -->
+                <!-- $100 Row -->
+                <button class="point-btn" data-category="STAR TREK UNIVERSE" data-value="100">$100</button>
+                <button class="point-btn" data-category="YELLOWSTONE UNIVERSE" data-value="100">$100</button>
+                <button class="point-btn" data-category="REALITY TV" data-value="100">$100</button>
+                <button class="point-btn" data-category="CRIME & DRAMA" data-value="100">$100</button>
+                <button class="point-btn" data-category="KIDS & FAMILY" data-value="100">$100</button>
+                <button class="point-btn" data-category="MOVIES & MORE" data-value="100">$100</button>
+                
+                <!-- $200 Row -->
+                <button class="point-btn" data-category="STAR TREK UNIVERSE" data-value="200">$200</button>
+                <button class="point-btn" data-category="YELLOWSTONE UNIVERSE" data-value="200">$200</button>
+                <button class="point-btn" data-category="REALITY TV" data-value="200">$200</button>
+                <button class="point-btn" data-category="CRIME & DRAMA" data-value="200">$200</button>
+                <button class="point-btn" data-category="KIDS & FAMILY" data-value="200">$200</button>
+                <button class="point-btn" data-category="MOVIES & MORE" data-value="200">$200</button>
+                
+                <!-- $300 Row -->
+                <button class="point-btn" data-category="STAR TREK UNIVERSE" data-value="300">$300</button>
+                <button class="point-btn" data-category="YELLOWSTONE UNIVERSE" data-value="300">$300</button>
+                <button class="point-btn" data-category="REALITY TV" data-value="300">$300</button>
+                <button class="point-btn" data-category="CRIME & DRAMA" data-value="300">$300</button>
+                <button class="point-btn" data-category="KIDS & FAMILY" data-value="300">$300</button>
+                <button class="point-btn" data-category="MOVIES & MORE" data-value="300">$300</button>
+                
+                <!-- $400 Row -->
+                <button class="point-btn" data-category="STAR TREK UNIVERSE" data-value="400">$400</button>
+                <button class="point-btn" data-category="YELLOWSTONE UNIVERSE" data-value="400">$400</button>
+                <button class="point-btn" data-category="REALITY TV" data-value="400">$400</button>
+                <button class="point-btn" data-category="CRIME & DRAMA" data-value="400">$400</button>
+                <button class="point-btn" data-category="KIDS & FAMILY" data-value="400">$400</button>
+                <button class="point-btn" data-category="MOVIES & MORE" data-value="400">$400</button>
+                
+                <!-- $500 Row -->
+                <button class="point-btn" data-category="STAR TREK UNIVERSE" data-value="500">$500</button>
+                <button class="point-btn" data-category="YELLOWSTONE UNIVERSE" data-value="500">$500</button>
+                <button class="point-btn" data-category="REALITY TV" data-value="500">$500</button>
+                <button class="point-btn" data-category="CRIME & DRAMA" data-value="500">$500</button>
+                <button class="point-btn" data-category="KIDS & FAMILY" data-value="500">$500</button>
+                <button class="point-btn" data-category="MOVIES & MORE" data-value="500">$500</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Question Screen -->
+    <div id="question-screen" class="screen">
+        <div class="question-container">
+            <div class="question-header">
+                <div id="question-category" class="question-category"></div>
+                <div id="question-value" class="question-value"></div>
+            </div>
+            <div id="question-clue" class="question-clue"></div>
+            <div class="question-controls">
+                <button id="show-answer-btn" class="btn btn--primary btn--lg jeopardy-btn">SHOW ANSWER</button>
+                <button id="back-to-board-btn" class="btn btn--secondary btn--lg">BACK TO BOARD</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Answer Screen -->
+    <div id="answer-screen" class="screen">
+        <div class="answer-container">
+            <div class="answer-header">
+                <div id="answer-category" class="question-category"></div>
+                <div id="answer-value" class="question-value"></div>
+            </div>
+            <div id="answer-text" class="answer-text"></div>
+            <div class="answer-controls">
+                <button id="correct-btn" class="btn btn--primary btn--lg">CORRECT (+$<span id="correct-points"></span>)</button>
+                <button id="incorrect-btn" class="btn" style="background: #dc3545; color: white;">INCORRECT (-$<span id="incorrect-points"></span>)</button>
+                <button id="back-to-board-answer-btn" class="btn btn--secondary btn--lg">BACK TO BOARD</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final Jeopardy Screen -->
+    <div id="final-jeopardy-screen" class="screen">
+        <div class="final-container">
+            <div class="final-header">
+                <h2>FINAL JEOPARDY!</h2>
+                <div class="final-category">
+                    <span>Category: </span>
+                    <span id="final-category-name">PARAMOUNT+ ORIGINALS</span>
+                </div>
+            </div>
+            <div id="final-clue" class="final-clue"></div>
+            <div class="final-controls">
+                <button id="show-final-answer-btn" class="btn btn--primary btn--lg jeopardy-btn">SHOW ANSWER</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final Answer Screen -->
+    <div id="final-answer-screen" class="screen">
+        <div class="final-answer-container">
+            <div class="final-header">
+                <h2>FINAL JEOPARDY!</h2>
+                <div class="final-category">
+                    <span>Category: </span>
+                    <span>PARAMOUNT+ ORIGINALS</span>
+                </div>
+            </div>
+            <div id="final-answer-text" class="final-answer-text"></div>
+            <div class="final-score">
+                <h3>Final Score: $<span id="final-score">0</span></h3>
+            </div>
+            <div class="final-controls">
+                <button id="play-again-btn" class="btn btn--primary btn--lg jeopardy-btn">PLAY AGAIN</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

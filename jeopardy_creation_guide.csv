@@ -1,0 +1,16 @@
+Step,Action,Detailed_Instructions,Time_Estimate
+1,Create New Presentation,Open Google Slides and create a new blank presentation. Set slide size to 16:9 for best display.,2 minutes
+2,Design Title Slide,"Add title ""JEOPARDY GAME"" with large, bold font. Include subtitle with game rules or theme. Use blue background color (#0066CC).",5 minutes
+3,Create Game Board Slide,Insert a table with 6 columns (categories) and 6 rows (header + 5 point values). Or use shapes to create a grid layout.,10 minutes
+4,Add Category Headers,"Add category names in top row: GEOGRAPHY, MOVIES & TV, SCIENCE, HISTORY, SPORTS, FOOD & DRINK. Use white text on blue background.",5 minutes
+5,Add Point Value Buttons,"Add point values in remaining rows: $100, $200, $300, $400, $500. Make buttons clickable with contrasting colors.",10 minutes
+6,Create Category Slides,Create one slide per category (6 total) showing category name and 5 question buttons ($100-$500).,15 minutes
+7,Create Question Slides,Create 30 question slides total (5 per category). Display the clue/answer given to contestants.,30 minutes
+8,Create Answer Slides,"Create 30 answer slides total. Show ""What is..."" or ""Who is..."" format with correct response.",30 minutes
+9,Add Navigation Buttons,"Add home button (house icon), back button (arrow), and next button to each slide for easy navigation.",15 minutes
+10,Create Hyperlinks,Use Insert > Link to create hyperlinks between slides. Link categories to category slides.,5 minutes
+11,Link Category Buttons,Link each category button on main board to corresponding category slide.,10 minutes
+12,Link Point Value Buttons,Link each point value button to corresponding question slide. Ensure correct question matches value.,15 minutes
+13,Link Navigation Buttons,"Link navigation buttons: Home to main board, Back to previous slide, Next to answer slide.",20 minutes
+14,Create Final Jeopardy Slide,Create Final Jeopardy slide with category announcement and final question/answer slides.,10 minutes
+15,Test All Links,Go through presentation in slideshow mode and test every link to ensure proper navigation.,15 minutes
